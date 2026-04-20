@@ -10,3 +10,4 @@ LimitNOFILE=65535
 sudo nginx -t
 ulimit -n
 df -h /tmp/hls
+watch -n 1 ls -lh /tmp/hls/
