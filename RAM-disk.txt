@@ -1,10 +1,10 @@
 # Klasörü oluştur ve RAM Disk olarak bağla (8GB ayırdık)
 sudo mkdir -p /tmp/hls
-sudo mount -t tmpfs -o size=8G tmpfs /tmp/hls
+sudo mount -t tmpfs -o size=4G tmpfs /tmp/hls
 
 # Nginx'in bu klasöre yazabilmesi için sahipliği ver
 sudo chown -R www-data:www-data /tmp/hls
 sudo chmod -R 775 /tmp/hls
 
 sudo nano /etc/fstab
-tmpfs /tmp/hls tmpfs size=8G,mode=775,uid=www-data,gid=www-data 0 0
+tmpfs /tmp/hls tmpfs size=4G,mode=775,uid=www-data,gid=www-data 0 0
