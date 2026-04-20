@@ -1,1 +1,2 @@
-OBS:
+OBS Configuration:
+rtmp://95.142.10.5/live
