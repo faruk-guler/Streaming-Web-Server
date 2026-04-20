@@ -23,4 +23,4 @@ Bu proje, **Debian 13** üzerinde çalışan, **Nginx RTMP** modülü ile optimi
 ### 1. Servis Kontrolü
 Konfigürasyonda değişiklik yaptıktan sonra mutlaka test edin:
 ```bash
-sudo nginx -t && sudo systemctl reload nginx
+sudo nginx -t && sudo systemctl status nginx
