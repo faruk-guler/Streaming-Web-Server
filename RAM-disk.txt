@@ -5,3 +5,6 @@ sudo mount -t tmpfs -o size=8G tmpfs /tmp/hls
 # Nginx'in bu klasöre yazabilmesi için sahipliği ver
 sudo chown -R www-data:www-data /tmp/hls
 sudo chmod -R 775 /tmp/hls
+
+sudo nano /etc/fstab
+tmpfs /tmp/hls tmpfs size=8G,mode=775,uid=www-data,gid=www-data 0 0
