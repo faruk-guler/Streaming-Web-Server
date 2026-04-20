@@ -12,6 +12,6 @@ ulimit -n
 df -h /tmp/hls
 watch -n 1 ls -lh /tmp/hls/
 watch -n 1 "ss -s"
-watch -n 1 "nginx -V 2>&1; ss -ant | grep :8080 | wc -l"
+watch -n 1 "nginx -V 2>&1; ss -ant | grep :80 | wc -l"
 htop
 sudo lsof | wc -l
