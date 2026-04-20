@@ -1,4 +1,5 @@
-# LIVE🔴 Streaming Server:
+# LIVE🔴 
+Streaming-Server
 
 Bu proje, **Debian 13** üzerinde çalışan, **Nginx RTMP** modülü ile optimize edilmiş ve **10.000 eşzamanlı izleyici** kapasitesini hedefleyen yüksek performanslı bir canlı yayın sunucusudur.
 
