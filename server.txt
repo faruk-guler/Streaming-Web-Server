@@ -6,6 +6,8 @@ sudo systemctl edit nginx
 LimitNOFILE=65535
 
 sudo nginx -t
+sudo systemctl restart nginx
+sudo systemctl enable nginx
 ulimit -n
 df -h /tmp/hls
 watch -n 1 ls -lh /tmp/hls/
