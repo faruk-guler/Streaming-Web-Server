@@ -3,7 +3,7 @@
 Bu proje, **Debian 13** üzerinde çalışan, **Nginx RTMP** modülü ile optimize edilmiş ve **10.000 eşzamanlı izleyici** kapasitesini hedefleyen yüksek performanslı bir canlı yayın sunucusudur.
 
 ## 🛠 Teknik Özellikler
-- **İşletim Sistemi:** Debian 13 (64-bit)
+- **İşletim Sistemi:** Debian 13 (64-bit) Trixie
 - **Dağıtım Protokolü:** HLS (HTTP Live Streaming)
 - **Depolama:** RAM Disk (tmpfs) - I/O darboğazını önlemek için.
 - **Kapasite:** 10 Gbps Omurga / 65.535 File Descriptor limiti.
