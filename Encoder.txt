@@ -1,5 +1,5 @@
 OBS Configuration:
-rtmp://95.142.10.5/live
+rtmp://95.142.10.5/hls
 
 Browser Test:
 http://SUNUCU_IP:8080/hls/istediğin_bir_kelime.m3u8
