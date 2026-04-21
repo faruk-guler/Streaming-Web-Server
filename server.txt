@@ -1,6 +1,9 @@
 sudo apt update && sudo apt upgrade -y
 sudo apt install nginx libnginx-mod-rtmp procps util-linux -y
 
+sudo nano /etc/nginx/nginx.conf
+sudo nano /etc/security/limits.conf
+
 sudo systemctl edit nginx
 [Service]
 LimitNOFILE=65535
