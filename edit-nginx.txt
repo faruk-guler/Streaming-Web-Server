@@ -1,1 +1,2 @@
-df
+[Service]
+LimitNOFILE=65535
